@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3772FF;
+    ;
+}
+
+.background__header{
+    position: absolute;
+}
+
+.nav__header{
+    position: absolute;
+    top: 5rem;
+    gap: 5rem;
+}
+
+/*
+.logo__mobile{
+    position: absolute;
+    top: 11rem;
+    left: 6rem;
+}
