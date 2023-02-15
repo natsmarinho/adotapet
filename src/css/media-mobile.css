@@ -1,0 +1,18 @@
+@media (max-width: 360px){
+    footer img{
+       display: none;
+    }
+}
+
+@media (max-width: 393px){
+    footer img{
+        width: 180px;
+        left: 25%;
+    }
+}
+
+@media (min-width: 394px) and (max-width: 412px){
+    footer img{
+        width: 230px;
+    }
+}

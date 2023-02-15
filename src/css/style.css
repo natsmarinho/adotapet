@@ -1,24 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
 
-*{
-    font-family: 'Poppins', sans-serif;
-    background-color: #3772FF;
-    ;
+:root{
+    --family-secondary: 'IBM Plex Sans', sans-serif;
+    --text-white: #ffffff;
+    --footer-color: #36D6AD;
 }
 
-.background__header{
-    position: absolute;
+/*MOBILE*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3772FF;
 }
 
 .nav__header{
     position: absolute;
-    top: 5rem;
-    gap: 5rem;
+    top: 3rem;
+    left: 3rem;
+    gap: 3.6rem;
+    display: flex;
 }
 
-/*
+.nav__header:first-child{
+    padding-right: 3.6rem;
+}
+
 .logo__mobile{
     position: absolute;
-    top: 11rem;
-    left: 6rem;
+    top: -5rem;
+    left: 28%;
 }
+
+.initial__texts{
+    position: absolute;
+    top: 14rem;
+    text-align: center;
+}
+
+
+.initial__texts h1{
+    font-family: var(--family-secondary);
+    font-size: 1.6rem;
+    color: var(--text-white);
+    padding-bottom: 1rem;
+}
+
+.initial__texts p{
+    font-family: 'Poppins';
+    color: var(--text-white);
+    font-size: 1rem;
+    padding: .5rem 4.5rem 0 3.5rem;
+}
+
+.btn__cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.background__dois{
+    position: absolute;
+    right: 0;
+    top: 11rem;
+}
+
+.btn__cadastro a{
+    text-decoration: none;
+    color: var(--text-white);
+    background: #FC7071;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+footer img{
+    width: 260px;
+    position: absolute;
+    bottom: 5rem;
+    left: 15%;
+}
+
+.footer__text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: var(--footer-color);
+    padding: 2.6rem 0 2.4rem 0;
+    width: 100%;
+}
+
