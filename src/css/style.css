@@ -13,6 +13,16 @@ body{
     background-color: #3772FF;
 }
 
+.cabecalho{
+    background-image: url('../imagens/background.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 333.25px;
+    height: 273.52px;
+    top: 0;
+    left: 0;
+}
+
 .nav__header{
     position: absolute;
     top: 3rem;
@@ -56,8 +66,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    top: 22rem;
+    left: 25%;
     gap: 1rem;
+    position: absolute;
 }
 
 .background__dois{
