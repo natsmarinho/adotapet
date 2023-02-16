@@ -24,11 +24,17 @@ body{
 }
 
 .nav__header{
+    background-image: 
+                    url('../imagens/icone-msg.png'),
+                    url('../imagens/icone-home.png');
+                    
     position: absolute;
     top: 3rem;
     left: 3rem;
-    gap: 3.6rem;
-    display: flex;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left; 
+    width: 19px;
+    height: 23px;
 }
 
 .nav__header:first-child{
@@ -102,5 +108,9 @@ footer img{
     background-color: var(--footer-color);
     padding: 2.6rem 0 2.4rem 0;
     width: 100%;
+}
+
+.footer__text h2{
+    color: #ffffff;
 }
 
