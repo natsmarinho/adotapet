@@ -1,116 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap");
 
-:root{
-    --family-secondary: 'IBM Plex Sans', sans-serif;
-    --text-white: #ffffff;
-    --footer-color: #36D6AD;
+:root {
+  --family-secondary: "IBM Plex Sans", sans-serif;
+  --text-white: #ffffff;
+  --footer-color: #36d6ad;
 }
 
 /*MOBILE*/
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #3772FF;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #3772ff;
 }
 
-.cabecalho{
-    background-image: url('../imagens/background.png');
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 333.25px;
-    height: 273.52px;
-    top: 0;
-    left: 0;
-}
-
-.nav__header{
-    background-image: 
-                    url('../imagens/icone-msg.png'),
-                    url('../imagens/icone-home.png');
-                    
-    position: absolute;
-    top: 3rem;
-    left: 3rem;
-    background-repeat: no-repeat, no-repeat;
-    background-position: right, left; 
-    width: 19px;
-    height: 23px;
-}
-
-.nav__header:first-child{
-    padding-right: 3.6rem;
-}
-
-.logo__mobile{
-    position: absolute;
-    top: -5rem;
-    left: 28%;
-}
-
-.initial__texts{
-    position: absolute;
-    top: 14rem;
-    text-align: center;
+.cabecalho {
+  background-image: url("../imagens/background.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 333.25px;
+  height: 273.52px;
+  top: 0;
+  left: 0;
 }
 
 
-.initial__texts h1{
-    font-family: var(--family-secondary);
-    font-size: 1.6rem;
-    color: var(--text-white);
-    padding-bottom: 1rem;
+
+.nav__header {
+  background-image: url("../imagens/icone-msg.png"),
+    url("../imagens/icone-home.png");
+
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
+  width: 19px;
+  height: 23px;
 }
 
-.initial__texts p{
-    font-family: 'Poppins';
-    color: var(--text-white);
-    font-size: 1rem;
-    padding: .5rem 4.5rem 0 3.5rem;
+.nav__header:first-child {
+  padding-right: 3.6rem;
 }
 
-.btn__cadastro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 22rem;
-    left: 25%;
-    gap: 1rem;
-    position: absolute;
+.logo__mobile {
+  position: absolute;
+  top: -5rem;
+  left: 28%;
 }
 
-.background__dois{
-    position: absolute;
-    right: 0;
-    top: 11rem;
+.initial__texts {
+  position: absolute;
+  top: 14rem;
+  text-align: center;
 }
 
-.btn__cadastro a{
-    text-decoration: none;
-    color: var(--text-white);
-    background: #FC7071;
-    padding: 1rem 1rem;
-    border-radius: 6px;
-    font-weight: 600;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+.initial__texts h1 {
+  font-family: var(--family-secondary);
+  font-size: 1.6rem;
+  color: var(--text-white);
+  padding-bottom: 1rem;
 }
 
-footer img{
-    width: 260px;
-    position: absolute;
-    bottom: 5rem;
-    left: 15%;
+.initial__texts p {
+  font-family: "Poppins";
+  color: var(--text-white);
+  font-size: 1rem;
+  padding: 0.5rem 4.5rem 0 3.5rem;
 }
 
-.footer__text{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    background-color: var(--footer-color);
-    padding: 2.6rem 0 2.4rem 0;
-    width: 100%;
+.btn__cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 22rem;
+  left: 25%;
+  gap: 1rem;
+  position: absolute;
 }
 
-.footer__text h2{
-    color: #ffffff;
+.background__dois {
+  position: absolute;
+  right: 0;
+  top: 11rem;
 }
 
+.btn__cadastro a {
+  text-decoration: none;
+  color: var(--text-white);
+  background: #fc7071;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+footer img {
+  width: 260px;
+  position: absolute;
+  bottom: 5rem;
+  left: 15%;
+}
+
+.footer__text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: var(--footer-color);
+  padding: 2.6rem 0 2.4rem 0;
+  width: 100%;
+}
+
+.footer__text h2 {
+  color: #ffffff;
+}
+
+.patinhas {
+  position: absolute;
+  right: 0;
+}
+
+.logo-empresa {
+  background-image: url("../imagens/logo-azul.png");
+  width: 142.54px;
+  height: 34.36px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10rem;
+  left: 8rem;
+  text-align: center;
+}

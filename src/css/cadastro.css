@@ -1,21 +1,5 @@
 body{
-    background-color: #ffffff;
-}
-
-.patinhas{
-    position: absolute;
-    right: 0;
-}
-
-.logo-empresa{
-    background-image: url('../imagens/logo-azul.png');
-    width: 142.54px;
-    height: 34.36px;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 9rem;
-    left: 8rem;
-    text-align: center;
+    background-color:  #E5E5E5;;
 }
 
 .text__cadastro{
