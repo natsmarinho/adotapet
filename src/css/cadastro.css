@@ -1,5 +1,5 @@
 body{
-    background-color:  #E5E5E5;;
+    background-color:  #E5E5E5;
 }
 
 .text__cadastro{
@@ -50,6 +50,12 @@ form label{
     text-align: center;
     font-size: .7rem;
 }
+
+.form__container{
+    background-color: #F6F6F6;
+}
+
+
 
 .btn__cadastrar{
     background: #FC7071;

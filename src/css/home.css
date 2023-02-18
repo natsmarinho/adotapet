@@ -1,0 +1,16 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.icon__user{
+    position: absolute;
+    left: 16rem;
+    width: 40px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
