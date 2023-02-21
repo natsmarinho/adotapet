@@ -13,9 +13,7 @@ body {
   background-color: #3772ff;
 }
 
-.cabecalho {
-  background-image: url("../imagens/background.png");
-  background-repeat: no-repeat;
+.forma__background{
   position: absolute;
   width: 333.25px;
   height: 273.52px;
@@ -23,19 +21,18 @@ body {
   left: 0;
 }
 
+.logo__cabecalho{
+  display: none;
+}
 
-
-.nav__header {
-  background-image: url("../imagens/icone-msg.png"),
-    url("../imagens/icone-home.png");
-
-  position: absolute;
+.nav__menu__cabecalho{
+  position: relative;
   top: 3rem;
   left: 3rem;
-  background-repeat: no-repeat, no-repeat;
-  background-position: right, left;
-  width: 19px;
-  height: 23px;
+}
+
+.icone__home{
+  padding-right: 3.6rem;
 }
 
 .nav__header:first-child {
@@ -128,4 +125,73 @@ footer img {
   top: 10rem;
   left: 8rem;
   text-align: center;
+}
+
+/* TELA TABLET*/
+
+@media (min-width: 767px){
+  .forma__background{
+    width: 529.81px;
+    height: 434.85px;
+  }
+
+  .nav__menu__cabecalho{
+    position: relative;
+    top: 4rem;
+  }
+  .icone__home{
+    position: relative;
+    left: 12rem;
+  }
+
+  .icone__msg{
+    position: relative;
+    left: 12rem;
+  }
+
+  .logo__cabecalho{
+    display: flex;
+    position: absolute;
+  }
+
+  .initial__texts{
+    top: 20rem;
+  }
+
+  .logo__mobile{
+    left: 38%;
+  }
+
+  .initial__texts h1{
+    font-size: 1.7rem;
+  }
+
+  .initial__texts p{
+    font-size: 1.2rem;
+    padding-inline: 13rem;
+    line-height: 26px;
+  }
+
+  .background__dois{
+    width: 134.45px;
+    height: 664px;
+    top: 14rem;
+  }
+
+  .btn__cadastro{
+    top: 30rem;
+    left: 27%
+  }
+
+  .btn__cadastro a{
+    width: 344px;
+    font-size: 1.5rem;
+    padding-block: 1.5rem;
+    text-align: center;
+  }
+
+  footer img{
+    bottom: 4rem;
+    left: 30%;
+  }
 }
