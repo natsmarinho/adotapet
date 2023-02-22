@@ -130,6 +130,10 @@ footer img {
 /* TELA TABLET*/
 
 @media (min-width: 767px){
+  body{
+    overflow: hidden;
+  }
+  
   .forma__background{
     width: 529.81px;
     height: 434.85px;
@@ -137,8 +141,8 @@ footer img {
 
   .nav__menu__cabecalho{
     position: relative;
-    top: 4rem;
-  }
+    }
+    
   .icone__home{
     position: relative;
     left: 12rem;
@@ -180,7 +184,7 @@ footer img {
 
   .btn__cadastro{
     top: 30rem;
-    left: 27%
+    left: 27%;
   }
 
   .btn__cadastro a{
