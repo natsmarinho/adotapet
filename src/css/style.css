@@ -131,7 +131,7 @@ footer img {
 
 @media (min-width: 767px){
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .forma__background{
