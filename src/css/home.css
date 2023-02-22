@@ -77,6 +77,10 @@ body{
     font-size: .6rem;
 }
 
+.forma__back{
+    display: none;
+}
+
 footer{
     position: relative;
     text-align: center;
@@ -91,6 +95,8 @@ footer h2{
     align-self: center;
     padding-left: 4rem;
 }
+
+/*-------------------------------------------------------------------TABLET---------------------------------------------------------------*/
 
 @media (min-width: 768px){
     .container{
@@ -146,5 +152,64 @@ footer h2{
 
     footer h2{
         padding-left: 22rem;
+    }
+}
+
+/*-----------------------------------------------------------DESKTOP---------------------------------------------------------------------------*/
+
+@media (min-width: 1280px){
+    .profile__icone{
+        left: 62rem;
+    }
+
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "c1 c2 c3"
+        "c4 c5 c6"
+        "c7 c8 c9"
+        ;
+        left: 3rem;
+        grid-template-columns: 21.5rem 21.5rem;
+    }
+
+   .container h1{
+    position: absolute;
+    top: -5rem;
+    left: 10rem;
+   }
+
+   .container__bichinhos{
+    width: 345px;
+    height: 196px;
+   }
+
+   .forma__back{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+    width: 134.45px;
+    height: 664px;
+   }
+
+   footer h2{
+    padding-left: 32rem;
+   }
+}
+
+@media (min-width: 1440px){
+    .profile__icone{
+        left: 75rem;
+    }
+
+    .container{
+        left: 10rem;
+        grid-template-columns: 22rem 22rem;
+        grid-template-rows: 12.5rem 12.5rem;
+    }
+
+    footer h2{
+        padding-left: 40rem;
     }
 }
