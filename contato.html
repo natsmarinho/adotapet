@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/contato.css">
     <title>Contato</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <img class="forma__background" src="./src/imagens/background.png" alt="Background em forma ondular">
+  
+        <div class="nav__menu__cabecalho">
+            <img class="logo__cabecalho" src="./src/imagens/logo-desktop.png" alt="Logo do adopet">
+            <a href="#"><img class='icone__home' src="./src/imagens/icone-home.png" alt="Ícone botão home"></a>
+            <a href="./contato.html"> <img class="icone__msg" src="./src/imagens/icone-msg.png" alt="Ícone de mensagem"></a>
+            <a href="#"><img class="profile__icone" src="./src/imagens/icone-user.png" alt="Ícone que representa perfil do usuário"></a>
+        </div>
+      </header>
+
+      <main>
+        <div class="container-text">
+            <h1>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</h1>
+        </div>
+
+        <div class="container-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Insira seu nome completo">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" placeholder="Insira seu telefone e/ou whatsapp" id="telefone">
+
+            <label for="nome-animal">Nome do animal</label>
+            <input type="text" id="nome-animal" placeholder="Por qual animal você se interessou?">
+
+            <label for="msg">Mensagem</label>
+            <textarea name="" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+
+            <a href="#" class="btn__enviar">Enviar</a>
+        </div>
+      </main>
+
+      <footer class="footer__text">
+        <h2>2022 - Desenvolvido por Alura.</h2>
+    </footer>
 </body>
 </html>
