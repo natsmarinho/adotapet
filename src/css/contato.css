@@ -84,6 +84,10 @@ textarea{
     font-weight: 600;
 }
 
+.forma{
+    display: none;
+}
+
 footer{
     position: absolute;
     top: 100%;
@@ -106,5 +110,69 @@ footer h2{
 @media screen and (max-width: 393px){
     footer{
         top: 120%;
+    }
+}
+
+/*--------------------------------------------------TABLET----------------------------*/
+
+@media screen and (min-width: 768px){
+    .profile__icone{
+        left: 38rem;
+    }
+
+    .container-text h1{
+        top: 15rem;
+        padding-inline: 8rem;
+        font-size: 1.12rem;
+    }
+
+    .container-form{
+        top: 18rem;
+        width: 524px;
+        height: 628px;
+    }
+
+    input, textarea{
+        mix-blend-mode: normal;
+    }
+
+    input{
+        width: 470px;
+        height: 48px;
+    }
+
+    textarea{
+        width: 470px;
+        height: 172px;
+    }
+
+    .forma{
+        display: flex;
+        position: absolute;
+        width: 134.45px;
+        height: 664px;
+        right: -2rem;
+        top: 16rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .profile__icone{
+        left: 50rem;
+    }
+
+    .container-form{
+        width: 650px;
+        height: 700px;
+    }
+
+    input{
+        width: 595px;
+        height: 55px;
+    }
+
+    textarea{
+        width: 595px;
+        height: 182px;
     }
 }
