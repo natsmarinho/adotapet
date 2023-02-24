@@ -176,3 +176,27 @@ footer h2{
         height: 182px;
     }
 }
+
+/*-----------------------------------------------DESKTOP----------------------*/
+
+@media screen and (min-width: 1200px){
+    .profile__icone{
+        left: 80vw;
+    }
+
+    .container-text h1{
+        top: 12rem;
+    }
+
+    .container-form{
+        top: 15rem
+    }
+
+    .forma{
+        top: 11rem;
+    }
+
+    footer{
+        top: 70vw;
+    }
+}
