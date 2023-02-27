@@ -55,18 +55,6 @@ form label{
     background-color: #F6F6F6;
 }
 
-
-
-.btn__cadastrar{
-    background: #FC7071;
-    border-radius: 6px;
-    border: none;
-    width: 9.25rem;
-    height: 2.5rem;
-    color: #ffffff;
-    margin-top: 2rem;
-}
-
 .forma{
     position: absolute;
     top: 20rem;

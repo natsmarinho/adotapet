@@ -1,0 +1,98 @@
+body{
+    background-color: #ffffff;
+}
+
+.foto-perfil{
+    position: relative;
+    left: 7rem;
+}
+
+.container{
+    position: absolute;
+    top: 10.5rem;
+}
+
+.container > p{
+    text-align: center;
+    color: var(--azul);
+    padding: 0 3rem 3rem;
+}
+
+.container__perfil{
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 825px;  
+    margin: auto;
+    background: #F7F7F7;
+    border-radius: 10px;
+}
+
+
+.container h1{
+    text-align: center;
+    color: #737380;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.container__perfil label{
+    color: var(--azul);
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.container__perfil a{
+    text-align: center;
+    text-decoration: none;
+    color: var(--bege);
+    font-size: .75rem;
+}
+
+.foto__perfil-container{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding-bottom: .5rem;
+}
+
+.container__perfil input{
+    width: 275px;
+    height: 48px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    position: relative;
+    left: 1rem;
+    padding-left: 1rem;
+}
+
+.container__perfil textarea{
+    width: 275px;
+    height: 176px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    left: 1rem;
+    color: var(--cinza);
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.btn{
+   padding-inline: 2rem;
+}
+
+.footer__text{
+    position: absolute;
+    bottom: -25rem;
+}
+
+.footer__text h3{
+    color: #ffffff;
+}

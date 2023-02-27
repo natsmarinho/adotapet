@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/profile.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="forma__background" src="./src/imagens/background.png" alt="Background em forma ondular">
+  
+        <div class="nav__menu__cabecalho">
+            <img class="logo__cabecalho" src="./src/imagens/logo-desktop.png" alt="Logo do adopet">
+            <a href="#"><img class='icone__home' src="./src/imagens/icone-home.png" alt="Ícone botão home"></a>
+            <a href="./contato.html"> <img class="icone__msg" src="./src/imagens/icone-msg.png" alt="Ícone de mensagem"></a>
+            <a href="#"><img src="./src/imagens/foto-perfil.svg" class="foto-perfil" alt="Foto de perfil do usuário"></a>
+        </div>
+    </header>
+
+    <main class="container">
+        <p>Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+
+        <div class="container__perfil">
+            <h1>Perfil</h1>
+            <label>Foto</label>
+            <img src="./src/imagens/foto-perfil.svg" alt="Foto de perfil do usuário" class="foto__perfil-container">
+            <a href="#">Clique na foto para editar</a><br>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="" id="name" placeholder="Joana Magalhães">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="" id="telefone" placeholder="55 11 XXXXXXXXX">
+
+            <label for="cidade">Cidade</label>
+            <input type="text" name="" id="cidade" placeholder="São Paulo">
+
+            <label for="sobre">Sobre</label>
+            <textarea name="Sobre" id="sobre" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laborum, doloribus consequuntur, itaque asperiores voluptate dicta, debitis placeat incidunt deserunt facilis voluptas totam. Iste magnam debitis enim cum impedit quos!</textarea>
+
+            <input type="button" value="Salvar" class="btn">
+        </div>
+    </main>
+
+    <footer class="footer__text">
+        <h3>2022 - Desenvolvido por Alura.</h3>
+    </footer>
+</body>
+</html>

@@ -4,6 +4,20 @@
   --family-secondary: "IBM Plex Sans", sans-serif;
   --text-white: #ffffff;
   --footer-color: #36d6ad;
+  --azul: #3772FF;
+  --bege: #FC7071;
+  --cinza: #737380;
+
+}
+
+.btn{
+  background: #FC7071;
+  border-radius: 6px;
+  border: none;
+  width: 9.25rem;
+  height: 2.5rem;
+  color: #ffffff;
+  margin-top: 2rem;
 }
 
 /*MOBILE*/
