@@ -111,3 +111,47 @@ body{
         bottom: -31rem;
     }
 }
+
+/*-------------------------------------------TABLET----------------------------------------*/
+
+@media screen and (min-width: 768px){
+    .foto-perfil{
+        position: absolute;
+        left: 38rem;
+    }
+
+    .container{
+        top: 17rem;
+    }
+
+    .container > p{
+        padding-inline: 7rem;
+        font-size: 1.1rem;;
+    }
+
+    .container__perfil{
+        width: 524px;
+        height: 756px;
+        border-radius: 10px;
+    }
+
+    .dados{
+        width: 475px;
+        height: 48px;
+    }
+
+    .container__perfil textarea{
+        width: 475px;
+        height: 104px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .foto-perfil{
+        left: 80vw;
+    }
+
+    .container > p{
+        font-size: 1.5rem;
+    }
+}
