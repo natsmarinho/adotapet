@@ -91,6 +91,10 @@ body{
    margin: auto;
 }
 
+.forma{
+    display: none;
+}
+
 .footer__text{
     position: absolute;
     bottom: -26.5rem;
@@ -140,6 +144,15 @@ body{
         height: 48px;
     }
 
+    .forma{
+        display: flex;
+        position: absolute;
+        right: -2rem;
+        top: 16rem;
+        width: 134.45px;
+        height: 664px;
+    }
+
     .container__perfil textarea{
         width: 475px;
         height: 104px;
@@ -154,4 +167,28 @@ body{
     .container > p{
         font-size: 1.5rem;
     }
+}
+
+/*------------------------------------------DESKTOP----------------------------*/
+
+@media screen and (min-width: 1278px) and (max-width: 1280px){
+    .container__perfil{
+        margin-bottom: 8rem;
+    }
+
+    .footer__text{
+        bottom: -30rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .container > p{
+        padding-inline: 28rem;
+    }
+}
+
+@media screen and (min-width: 1441px){
+    .footer__text{
+        bottom: -38rem;
+       }
 }
