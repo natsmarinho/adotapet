@@ -24,6 +24,7 @@ body{
     width: 312px;
     height: 825px;  
     margin: auto;
+    padding-bottom: 2rem;
     background: #F7F7F7;
     border-radius: 10px;
 }
@@ -60,7 +61,7 @@ body{
     padding-bottom: .5rem;
 }
 
-.container__perfil input{
+.dados{
     width: 275px;
     height: 48px;
     border: none;
@@ -82,17 +83,31 @@ body{
     color: var(--cinza);
     padding-left: 1rem;
     padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .btn{
    padding-inline: 2rem;
+   margin: auto;
 }
 
 .footer__text{
     position: absolute;
-    bottom: -25rem;
+    bottom: -26.5rem;
 }
 
 .footer__text h3{
     color: #ffffff;
+}
+
+@media screen and (max-width: 393px){
+    .footer__text{
+        bottom: -28rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .footer__text{
+        bottom: -31rem;
+    }
 }
