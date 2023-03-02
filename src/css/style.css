@@ -215,3 +215,102 @@ footer img {
     left: 30%;
   }
 }
+
+/*--------------------------------------------DESKTOP------------------------------------------------------------*/
+
+@media screen and (min-width: 1280px){
+  .logo__mobile{
+    top: -12rem;
+    left: 36rem;
+  }
+
+  .initial__texts h1{
+    position: relative;
+    top: -7rem;
+    left: 2rem;
+  }
+
+  .initial__texts p{
+    position: relative;
+    top: -7rem;
+    left: 2rem;
+    padding-inline: 25rem;
+  }
+
+  .btn__cadastro{
+    position: relative;
+    left: 2rem;
+    top: 20rem;
+  }
+
+  .background__dois{
+    top: 8rem;
+  }
+
+  footer img{
+    left: 32rem;
+    width: 300px;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-height: 800px) and (min-height: 799px){
+  .logo__mobile{
+    top: -15rem
+  }
+
+  .initial__texts h1{
+    top: -11rem;
+  }
+
+  .initial__texts p{
+    top: -11rem;
+  }
+
+  .btn__cadastro{
+    top: 15rem;
+  }
+
+  .background__dois{
+    top: 0
+  }
+
+  footer img{
+    left: 35rem;
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1441px){
+  .logo__mobile{
+    top: -15rem;
+    left: 43rem;
+  }
+
+  .initial__texts h1{
+    top: -11rem;
+    left: 1.4rem;
+  }
+
+  .initial__texts p{
+    top: -11rem;
+    left: 1.4rem;
+  }
+  .btn__cadastro{
+    top: 15rem;
+  }
+
+  footer{
+    position: relative;
+    bottom: -42rem;
+  }
+
+  footer img{
+    left: 38rem
+  }
+
+  .background__dois{
+    top: 0
+  }
+}
