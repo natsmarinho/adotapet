@@ -140,7 +140,6 @@ footer img {
   position: absolute;
   top: 10rem;
   left: 8rem;
-  text-align: center;
 }
 
 /* TELA TABLET*/
@@ -172,6 +171,10 @@ footer img {
   .logo__cabecalho{
     display: flex;
     position: absolute;
+  }
+
+  .logo-empresa{
+    left: 15rem;
   }
 
   .initial__texts{

@@ -1,5 +1,5 @@
 body{
-    background-color:  #E5E5E5;
+    background-color:  #ffffff;
 }
 
 .text__cadastro{
@@ -55,9 +55,17 @@ form label{
     background-color: #F6F6F6;
 }
 
+.btn{
+    font-weight: 600;
+}
+
 .forma{
     position: absolute;
     top: 20rem;
+}
+
+.back-bigger-devices{
+    display: none;
 }
 
 @media (max-width: 393px){
@@ -76,6 +84,97 @@ form label{
     }
 }
 
-@media screen and (min-width: 1240px){
+@media screen and (min-width: 768px){
+    .icone__home{
+        left: 10rem;
+    }
 
+    .icone__mensagem-menu{
+        position: relative;
+        left: 16rem;
+    }
+
+    .logo-bigger-devices{
+        position: relative;
+        top: 13rem;
+        left: 16rem;
+        width: 251.59px;
+        height: 62px;
+    }
+
+    .text__cadastro{
+        top: 17rem;
+        padding-inline: 7rem;
+    }
+
+    form{
+        position: relative;
+        top: 22rem;
+        left: 0;
+    }
+
+    .back-mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .logo-bigger-devices{
+        left: 18rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .logo-bigger-devices{
+        left: 25rem;
+    }
+
+    .text__cadastro{
+        left: 7.5rem;
+    }
+}
+
+/*-----------------------------------------DESKTOP----------------------------------*/
+
+@media screen and (min-width: 1280px){
+    .logo-bigger-devices{
+        top: 8rem;
+        left: 33rem;
+    }
+
+    .text__cadastro{
+        top: 12rem;
+        left: 16rem;
+    }
+
+    form{
+        top: 16rem;
+    }
+
+    .footer__text{
+        bottom: -5rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .logo-bigger-devices{
+        left: 37rem;
+    }
+
+    .text__cadastro{
+        left: 20rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (min-height: 700px){
+    .footer__text{
+        bottom: -10rem;
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-height: 900px){
+    .footer__text{
+        bottom: 0;
+    }
 }
