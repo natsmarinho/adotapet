@@ -1,5 +1,5 @@
 body{
-    background-color:  #E5E5E5;
+    background-color:  white;
     overflow-x: hidden;
 }
 
@@ -55,10 +55,16 @@ form a{
     height: 40px;
     top: 4rem;
     left: 8.4rem;
+    font-weight: 700;
 }
+
 .forma{
     position: absolute;
     top: 20rem;
+}
+
+.forma-direita{
+    display: none;
 }
 
 @media (max-width: 376px){
@@ -107,7 +113,166 @@ form a{
     }
 }
 
+/*---------------------------------------------TABLET---------------------------------*/
+@media screen and (min-width: 768px){
+    .icone-msg{
+        position: relative;
+        left: 13rem;
+    }
+
+    .logo-azul{
+        position: relative;
+        left: 16rem;
+        top: 12rem;
+        width: 251.59px;
+        height: 62px;
+    }
+
+    .login__text h1{
+        position: relative;
+        top: -1rem;
+        font-size: 1.1rem;
+    }
+
+    .forma-esquerda{
+        display: none;
+    }
+
+    .forma-direita{
+        display: flex;
+        position: relative;
+        right: -40rem;;
+        width: 134.45px;
+        height: 664px;
+        top: -8rem;
+    }
+
+    .input-login{
+        left: 14rem;
+    }
+
+    .btn__entrar{
+        left: 19.5rem;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .logo-azul{
+        left: 17rem;
+    }
+
+    .input-login{
+        left: 15rem;
+    }
+
+    .btn__entrar{
+        left: 20.5rem;
+    }
+
+    .forma-direita{
+        right: -42rem;
+        top: -1rem;
+    }
+}
+
+@media screen and (min-width: 834px){
+    .logo-azul{
+        left: 18rem;
+    }
+
+    .input-login{
+        left: 16rem;
+    }
+
+    .btn__entrar{
+        left: 21.5rem;
+    }
+    
+    .forma-direita{
+        right: -44rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .logo-azul{
+        left: 24.4rem;
+    }
+
+    .input-login{
+        left: 22rem;
+    }
+
+    .btn__entrar{
+        left: 27.4rem;
+    }
+
+    .forma-direita{
+        right: -56rem;
+    }
+}
+
 /* ------------------------------------------------------DESKTOP--------------------------------------------------------*/
 
 @media screen and (min-width: 1240px){
+    .logo-azul{
+        left: 31.5rem;
+    }
+
+    .input-login{
+        left: 30rem;
+    }
+
+    .btn__entrar{
+        left: 34.8rem;
+    }
+
+    .forma-direita{
+        top: -6rem;
+        right: -70.6rem;
+    }
+
+    footer{
+        top: 60rem;
+        padding-bottom: 5rem;
+    }
+
+    footer h2{
+        
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .logo-azul{
+        left: 36.6rem;
+    }
+
+    .input-login{
+        left: 35rem;
+    }
+
+    .btn__entrar{
+        left: 40rem;
+    }
+
+    .forma-direita{
+        right: -81rem;
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 700px){
+    .logo-azul{
+        left: 39.5rem;
+    }
+
+    .input-login{
+        left: 38rem;
+    }
+
+    .btn__entrar{
+        left: 42.7rem;
+    }
+
+    .forma-direita{
+        right: -87rem;
+    }
 }
