@@ -39,11 +39,11 @@
 
     <form>
         <label for="email__login">Email</label>
-        <input class="input-login" type="email" id="email__login" placeholder="Insira seu email">
+        <input class="input-login" type="email" id="email__login" placeholder="Insira seu email" minlength="4" required>
         <label for="senha__login">Senha</label>
-        <input class="input-login" type="password" id="senha__login" placeholder="Insira sua senha">
+        <input class="input-login" type="password" id="senha__login" placeholder="Insira sua senha" minlength="6" required>
         <a href="#">Esqueci minha senha.</a>
-        <input type="button" value="Entrar" class="btn__entrar">
+        <input type="submit" value="Entrar" id="entrar" class="btn__entrar">
     </form>
 
     <footer class="footer__text">
